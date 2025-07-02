@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jane Doe - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Evangelia Alevrakis
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          jdoe@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://moderncat.com/wp-content/uploads/2019/05/grumpycat1-1440x980.jpg" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Evangelia Alevrakis! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            I'm a passionate Full Stack Developer with a strong foundation in both front-end and back-end technologies. I specialize in building scalable web applications using tools like JavaScript, React, Node.js, and MongoDB. Whether working on a solo project or collaborating with a team, I'm always eager to learn, improve, and deliver high-quality software.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-css-logo-png-transparent-svg-vector-bie-supply-9.png"/>
+            <h6>CSS</h6>
+            <p>2 years experience</p>
+          </div>
+
+          <div class="skill">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTueaQ--hfoTIBrbCyLIDaFFLyp9jD9uREnHw&s"/>
+            <h6>React</h6>
+            <p>1 year experience</p>
+          </div>
+
+          <div class="skill">
+            <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/nodejs-1-logo.png"/>
+            <h6>Node JS</h6>
+            <p>6 months experience</p>
+          </div>
+
+          <div class="skill">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxscOaGYIFYKsrgioo7pzV7YpbpkUOJgDe2A&s"/>
+            <h6>MongoDB</h6>
+            <p>9 months experience</p>
+          </div>
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Task Manager Web App</h3>
+            <ul>
+              <li>Built a full-stack task management tool using React for the frontend and Node.js/Express with MongoDB for the backend. Included user authentication, role-based access, and real-time updates using Socket.io.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Real Estate Listings Platform</h3>
+            <ul>
+              <li>Developed a responsive web platform for real estate listings using Next.js and Firebase. Implemented map-based property search, secure user login, and an admin dashboard for listing management.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Recipe Finder App</h3>
+            <ul>
+              <li>Created a mobile-friendly web app that fetches recipes from an external API based on user ingredients input. Built using HTML, CSS, JavaScript, and integrated with Spoonacular API for recipe data.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Evangelia brings a rare combination of technical depth and collaborative spirit. She’s proactive, dependable, and always willing to dive deep to solve problems. A true asset to any development team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Evangelia’s ability to turn complex requirements into seamless user experiences is impressive. She consistently meets deadlines, communicates clearly, and elevates the quality of every project she touches.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Evangelia was a pleasure. Her full stack expertise, attention to detail, and can-do attitude made a huge impact on our product launch. I’d gladly work with her again.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for leaving a recommendation!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
